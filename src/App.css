@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  background-color: #d9d6ed;
+  padding-right: 22px;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+ 
+.header {
+  width: 90%;
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+
+.vendor2 {
+
+  width: 805;
+  background-color: #000000;
+  height: 20%;
+  text-align: left;
+  color: aliceblue;
+  padding-bottom: 12px;
+  padding-top: 8px;
+  padding-left: 15px;
+  border-radius: 9px;
+  margin-left: 4%;
+  margin-right: 1%;
+
+}
+
+.vendor1 {
+
+  width: 80%;
+  background-color: #fff5f5;
+  height: 10%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 7px;
+  padding-top: 1px;
+  border-radius: 9px;
+  margin-left: 10%;
+  margin-right: 1%;
+}
+
+.vendor {
+  width: 805;
+  background-color: #000000;
+  height: 20%;
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 12px;
+  padding-top: 8px;
+  border-radius: 9px;
+  margin-left: 4%;
+  margin-right: 1%;
+  transition: ease-in 0.3s;
+}
+
+.stakeInfo {
+  text-align: left;
+}
+
+.Input {
+  text-align: left;
+  width: 95%;
+  height: 25px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #1a09ba;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+.button {
+  width: fit-content;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(231, 234, 226);
+text-decoration: none;
+  color: #000000;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   margin-top: 10px;
+  margin-right: 20px;
+ }
+
+
+ .button:disabled {
+  opacity: 0.5;  
+  cursor: not-allowed; 
+  background-color: #ccc;  
+  color: #999;  
+  border: 1px solid #999; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+}
+
+
+ .button:last-child {
+  margin-right: 0;
+ }
+
+ .button:hover {
+  background-color: #00b300;
+ }
+
+.Input:focus {
+  border-color: #3fd51a;
+  box-shadow: 20 20 25px rgba(174, 17, 17, 0.5);
+}
+
+.link{
+  text-decoration: none;
+}
+
+.psys {
+  text-align: left;
+  display: flex;
+  padding-left: 22px;
+  padding-right: 25px;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer{
+  margin-top: auto;
+} 
